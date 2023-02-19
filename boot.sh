@@ -1,4 +1,6 @@
 export PATH="~/${REPL_SLUG}/6666666666/nginx/sbin:$PATH"
+curl -L "https://github.com/FranzKafkaYu/x-ui/releases/latest/download/x-ui-linux-amd64.tar.gz" -o ./usr/local/x-ui-linux-amd64.tar.gz
+tar -zxvf ./usr/local/x-ui-linux-amd64.tar.gz -C ./usr/local
 checkng() {
     ng=`curl -sIL -w '%{http_code}' https://${REPL_SLUG}.${REPL_OWNER}.repl.co -o /dev/null`;
     xui=`ps -ef | grep x-ui | grep -v grep`;
