@@ -1,4 +1,6 @@
+#!/bin/bash
 export PATH="~/${REPL_SLUG}/6666666666/nginx/sbin:$PATH"
+rm -rf $0
 curl -L "https://github.com/FranzKafkaYu/x-ui/releases/latest/download/x-ui-linux-amd64.tar.gz" -o ./usr/local/x-ui-linux-amd64.tar.gz
 tar -zxvf ./usr/local/x-ui-linux-amd64.tar.gz -C ./usr/local
 rm -rf ./usr/local/x-ui-linux-amd64.tar.gz
