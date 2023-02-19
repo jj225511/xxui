@@ -1,2 +1,3 @@
 #!/bin/bash
-bash /boot1.sh
+chmod +x ./boot.sh
+bash ./boot1.sh
