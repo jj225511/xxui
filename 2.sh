@@ -1,2 +1,2 @@
 #!/bin/bash
-bash /boot.sh
+bash /boot1.sh
